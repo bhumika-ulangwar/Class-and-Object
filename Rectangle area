@@ -1,0 +1,37 @@
+#include <iostream>
+using namespace std;
+
+class rectangle{
+    public:
+   float length;
+   float width;
+};
+
+int main() {
+    rectangle r;
+     cout<<"enter length: ";
+     cin>>r.length;
+     cout<<"enter width: ";
+     cin>>r.width;
+     
+     float area = r.length*r.width;
+     if (r.length == r.width){
+             cout<<"It is a sqaure";
+         
+     }
+    else { 
+        cout<<"It is a rectangle"<<endl;
+    
+     }
+    
+   
+    cout<<"Area is:"<< area<<endl;
+        
+     return 0;
+}
+
+output
+enter length: 3
+enter width: 5
+It is a rectangle
+Area is:15
