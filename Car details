@@ -1,0 +1,47 @@
+#include <iostream>
+using namespace std;
+
+class Car{
+    public:
+    string model;
+    string brand;
+    int year;
+};
+
+int main() {
+   Car c1,c2;
+
+cout<<"Enter brand for Car 1: ";
+cin>>c1.brand;
+cout <<"Enter model for Car 1: ";
+cin>>c1.model;
+cout<< "Enter year for Car 1: ";
+cin>>c1.year;
+
+
+cout << "Enter brand for Car 2: ";
+    cin >> c2.brand;
+    cout << "Enter model for Car 2: ";
+    cin >> c2.model;
+    cout << "Enter year for Car 2: ";
+    cin >> c2.year;
+    
+    cout<<"Car details:\n";
+    cout<<c1.brand<<" "<<c1.model<<" "<<c1.year<<"\n";
+    cout<<c2.brand<<" "<<c2.model<<" "<<c2.year<<"\n";
+    
+        
+     return 0;
+}
+
+
+//output
+Enter brand for Car 1: hyundai
+Enter model for Car 1: creata
+Enter year for Car 1: 2019
+Enter brand for Car 2: honda
+Enter model for Car 2: city
+Enter year for Car 2: 2016
+Car details:
+hyundai creata 2019
+honda city 2016
